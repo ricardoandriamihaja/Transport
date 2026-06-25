@@ -1,7 +1,4 @@
 
-import com.Reservation.Reservation;
-import com.Reservation.StatutReservation;
-
 import java.time.LocalDate;
 
 public class Paiment {

@@ -7,7 +7,7 @@ public class Reservation {
     private final LocalDate dateReservation;
     private int nombrePlaces;
     private StatutReservation statut;
-    private final Trajet trajet;
+    private Trajet trajet;
 
     public Reservation(int id, Trajet trajet, int nombrePlaces) {
         if (trajet == null) {
